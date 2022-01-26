@@ -196,8 +196,10 @@ STATICFILES_FINDERS = [
 # be handled by the Django staticfiles infrastructure
 
 PLOTLY_COMPONENTS = [
-    'dash_core_components',
-    'dash_html_components',
+    # 'dash_core_components',
+    'dash.dcc',
+    # 'dash_html_components',
+    'dash.html',
     'dash_bootstrap_components',
     'dash_renderer',
     'dpd_components',
