@@ -35,8 +35,10 @@ from django.core.cache import cache
 
 import dash
 from dash.dependencies import MATCH, ALL
-import dash_core_components as dcc
-import dash_html_components as html
+# import dash_core_components as dcc
+from dash import dcc
+# import dash_html_components as html
+from dash import html
 
 import plotly.graph_objs as go
 
